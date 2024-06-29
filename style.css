@@ -7,14 +7,13 @@
 
 body {
   background-color: #2B2D42;
+ 
+}
+.wraper {
   display: flex;
-  position: relative;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-}
-
-.wraper {
   padding: 1.2rem 4%;
   text-align: center;
 }
