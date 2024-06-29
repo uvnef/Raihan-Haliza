@@ -1,8 +1,12 @@
 * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
   text-decoration: none;
 }
+
 body {
-    background-color: #2B2D42;
+  background-color: #2B2D42;
   display: flex;
   position: relative;
   align-items: center;
@@ -11,6 +15,7 @@ body {
 }
 
 .wraper {
+  padding: 1.2rem 4%;
   text-align: center;
 }
 
@@ -32,11 +37,15 @@ body {
   text-align: center;
   transform: translate(-50%, -50%);
   cursor: pointer;
+  margin: 1rem auto;
 }
+
 .effect-text p {
   text-shadow: 5px 3px 4px rgb(228, 140, 155);
+  font-size: 45px;
 
 }
+
 .wraper .next a:hover {
   color: #edf2f4;
   background-color: #2B2D42;
@@ -108,6 +117,8 @@ body {
     font-size: 75%;
   }
 }
+
+
 
 @media (max-width :440px) {
   html {
