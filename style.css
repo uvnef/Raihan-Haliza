@@ -42,7 +42,7 @@ body {
 
 .effect-text p {
   text-shadow: 5px 3px 4px rgb(228, 140, 155);
-  font-size: 45px;
+  font-size:4rem;
 
 }
 
@@ -111,7 +111,6 @@ body {
 
 }
 
-/* 
 @media (max-width:992px) {
   html {
     font-size: 75%;
@@ -124,4 +123,4 @@ body {
   html {
     font-size: 65%;
   }
-} */
+} 
